@@ -1,8 +1,8 @@
 def square_array(array)
   # your code here
-  exp = []
+  square = []
   array.each do |element|
-    exp << element **= element
+    square << (element * element)
   end
-  return exp
+  return square
 end
