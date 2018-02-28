@@ -1,8 +1,8 @@
 def square_array(array)
   # your code here
-  exponent = []
+  exp = []
   array.each do |element|
-    expoent << element **= element
+    exp << element **= element
   end
-  return exponent
+  return exp
 end
