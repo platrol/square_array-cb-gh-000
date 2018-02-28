@@ -4,5 +4,5 @@ def square_array(array)
   array.each do |element|
     expoent << element **= element
   end
-  return expoent
+  return exponent
 end
